@@ -249,7 +249,7 @@ def main():
         words, length = generate_grid(word_list, options.words,
                                             options.special)
         for word_row in words:
-            print " ".join([word.ljust(length) for word in word_row])
+            print (" ".join([word.ljust(length) for word in word_row]))
 
 if __name__ == "__main__":
     main()

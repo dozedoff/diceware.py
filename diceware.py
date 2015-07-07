@@ -233,7 +233,7 @@ def main():
             sys.exit(1)
         try:
             word_list = read_word_list(fobj)
-        except ValueError, e:
+        except ValueError as e:
             print("error: %s" % e)
             sys.exit(1)
     else:

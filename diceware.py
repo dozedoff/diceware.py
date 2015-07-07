@@ -38,7 +38,7 @@ SOFTWARE.
 
 from math import log, ceil
 from optparse import OptionParser
-from ConfigParser import SafeConfigParser, NoOptionError, NoSectionError
+from configparser import SafeConfigParser, NoOptionError, NoSectionError
 from random import SystemRandom
 import sys
 import os
